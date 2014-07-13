@@ -11,5 +11,4 @@ if __name__ == '__main__':
     
     rets = crawler.query('yao ming', 200)
     for item in rets:
-        print item 
-
+        print item

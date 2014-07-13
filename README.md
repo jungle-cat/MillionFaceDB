@@ -1,4 +1,4 @@
 MillionFaceDB
 =============
 
-Construct million face images database for research purpos
+Construct million face images database for research purpose
