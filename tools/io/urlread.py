@@ -34,6 +34,7 @@ class urlread(object):
                 logging.error('FatalError: %s %s with url: %s' % (e.code, e.message, url))
                 failure = True
             finally:
+                page.close()
                 if n <= self.maxtry and failure: 
                     time.sleep(self.interval)
                 else:
